@@ -14,7 +14,7 @@ const SinglePage = () => {
       setItem(item)
     }
   }, [id])
-  const [rec, setRec] = useState(recommended)
+  const [rec] = useState(recommended)
 
   return (
     <>
