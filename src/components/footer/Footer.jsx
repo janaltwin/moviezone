@@ -14,10 +14,10 @@ const Footer = () => {
               <li>FAQ</li>
               <li>Watch List</li>
             </ul>
-            <p>© 2022 MovieZone. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, MovieZone Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</p>
+            <p>© 2022 MovieZone. All Rights Reserved. This is a movie web app front-end I developed using React Js, HTML, Css and Firebase.<h2>- Jan Altwin Pineda.</h2></p>
           </div>
           <div className='box'>
-            <h3>Follow Us</h3>
+            <h3>Follow Me</h3>
             <i className='fab fa-facebook-f'></i>
             <i className='fab fa-twitter'></i>
             <i className='fab fa-github'></i>

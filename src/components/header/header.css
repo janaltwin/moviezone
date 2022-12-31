@@ -30,6 +30,14 @@ header i {
   margin: 0 10px;
   cursor: pointer;
 }
+header input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #fff;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background-color: rgb(211, 237, 241);
+}
 header i:hover {
   color: #e50813;
 }

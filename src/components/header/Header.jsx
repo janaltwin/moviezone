@@ -37,6 +37,7 @@ const Header = () => {
             </button>
           </nav>
           <div className='account flexSB'>
+            <input type="text" placeholder="Movie Name" />
             <i className='fa fa-search'></i>
             <i class='fas fa-bell'></i>
             <i className='fas fa-user'></i>
