@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
+import mov from '../../assets/mov.png'
+
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false)
@@ -9,7 +11,9 @@ const Header = () => {
         <div className='container flexSB'>
           <nav className='flexSB'>
             <div className='logo'>
-              <h2>J@na</h2>
+              <h2>
+                J<img src={mov} alt=""/>na
+              </h2>
             </div>
             {/*<ul className='flexSB'>*/}
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
@@ -37,7 +41,7 @@ const Header = () => {
             </button>
           </nav>
           <div className='account flexSB'>
-            <input type="text" placeholder="Movie Name" />
+            <input type="text" placeholder="Search Movie..." id="searchMovie" />
             <i className='fa fa-search'></i>
             <i class='fas fa-bell'></i>
             <i className='fas fa-user'></i>

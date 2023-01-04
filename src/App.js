@@ -6,6 +6,14 @@ import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
 
 function App() {
+  
+  const getMovieRequest = async () => {
+    const url = 'http://www.omdbapi.com/?s=good&apikey=f1dc0e14'
+    const response = await fetch(url);
+    const responseJson = await response.json();
+    console.log(responseJson);
+  }
+
   return (
     <>
       <Router>
